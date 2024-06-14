@@ -1,9 +1,12 @@
 
 function Header(){
+const styles={
+    backgroundColor:"black"
+} 
     return(
         <div>
-        <h1>hellow</h1>
-        <h2>hii</h2>
+        <h1 style={{backgroundColor:"yellow"}}>hellow</h1>
+        <h1 style={styles}>hii</h1>
         </div>
     )
 }
